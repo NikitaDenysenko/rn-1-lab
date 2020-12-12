@@ -15,6 +15,7 @@ class Login extends Component {
             .auth()
             .signInWithEmailAndPassword(email, password)
             .then((result) => {
+                console.log('SUCCESS');
                 console.log(result);
                 this.props.navigation.navigate('Home');
             })

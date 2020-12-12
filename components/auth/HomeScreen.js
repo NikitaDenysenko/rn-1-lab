@@ -1,11 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const HomeScreen = ({ route }) => {
-    const { name } = route.params;
+const HomeScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>Hello, {name}</Text>
+            <Text>Hello, Nick</Text>
         </View>
     );
 };
